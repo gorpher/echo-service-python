@@ -1,0 +1,36 @@
+name: echo-service-python
+channels:
+  - conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://repo.anaconda.com/pkgs/main
+  - default
+dependencies:
+  - aiofiles=0.7.0=pyhd8ed1ab_0
+  - ca-certificates=2021.5.30=h033912b_0
+  - httptools=0.3.0=py39h89e85a6_0
+  - libcxx=12.0.1=habf9029_0
+  - libffi=3.4.2=he49afe7_4
+  - libuv=1.42.0=h0d85af4_0
+  - libzlib=1.2.11=h9173be1_1013
+  - multidict=5.2.0=py39h89e85a6_0
+  - ncurses=6.2=h2e338ed_4
+  - openssl=3.0.0=h0d85af4_1
+  - pip=21.2.4=pyhd8ed1ab_0
+  - python=3.9.7=h38b4d05_3_cpython
+  - python_abi=3.9=2_cp39
+  - readline=8.1=h05e3726_0
+  - sanic=21.9.1=py39h6e9494a_0
+  - sanic-routing=0.7.0=pyhd8ed1ab_0
+  - setuptools=58.0.4=py39h6e9494a_2
+  - sqlite=3.36.0=h23a322b_2
+  - tk=8.6.11=h5dbffcc_1
+  - tzdata=2021b=he74cb21_0
+  - ujson=4.2.0=py39h9fcab8e_0
+  - uvloop=0.16.0=py39h89e85a6_0
+  - websockets=10.0=py39h89e85a6_1
+  - wheel=0.37.0=pyhd8ed1ab_1
+  - xz=5.2.5=haf1e3a3_1
+  - zlib=1.2.11=h9173be1_1013
+prefix: /usr/local/anaconda3/envs/echo-service-python
